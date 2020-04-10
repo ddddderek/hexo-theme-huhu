@@ -4,32 +4,32 @@ menu:
   archives: /archives
   categories: /categories
   tags: /tags
-  friends: /friends
+  #friends: /friends
   about: /about
 
-#logo
+#logo图片
 logo: /images/logo.png
 
-#categories-max
+#categories-max 分类最大数量
 categories_max: 5
-
-#tags-max
+ 
+#tags-max 标签最大数量
 tags_max: 10
 
-#favicon
+#favicon 网站favicon(浏览器左上角小图标)
 favicon: /images/favicon.ico
 
-#site switch
-site_search: true
+#site switch 
+site_search: true 
 
-#rss
-rss: /atom.xml
+#rss 订阅标签
+rss: '' #atom.xml
 
-#follow 按顺序展示
+#follow 其他站点 按顺序展示
 follow:
-  github: 'https://github.com/shixiaohu2206'
-  facebook: 'https://www.facebook.com/shi.xiaohu.5'
-  instagram: 'https://www.instagram.com/shi_xiaohu/'
+  github: 'https://github.com/ddddderek'
+  #facebook: 'https://www.facebook.com/shi.xiaohu.5'
+  #instagram: 'https://www.instagram.com/shi_xiaohu/'
   # twitter: 'https://github.com/shixiaohu2206'
   # weixin: 'https://github.com/shixiaohu2206'
   # alipay: 'https://github.com/shixiaohu2206'
@@ -42,21 +42,18 @@ follow:
 #search post url
 search_url: /search.xml
 
-#ICP 皖ICP备16021483号
+#ICP 网站备案
 site_icp: ''
 
-#分享
+#分享平台
 share:
   - weibo
   - weixin
   - qqkongjian
-  - QQ
-  - douban
-  - facebook
-  - twitter
-  - google
 
-#cdn script
+
+#cdn 加速
+#script
 cdn_script:
   css: 'https://cdn.bootcss.com/require-css/0.1.10/css.min.js'
   pjax: 'https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js'
@@ -66,17 +63,16 @@ cdn_script:
   confirm: 'https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.js'
   fancybox: 'https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js'
   chart: 'https://cdn.bootcss.com/Chart.js/2.8.0-rc.1/Chart.bundle.min.js'
-
-#cdn css
+#css
 cdn_css:
   confirm: 'https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.css'
   fancybox: 'https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css'
   chart: 'https://cdn.bootcss.com/Chart.js/2.8.0-rc.1/Chart.min.css'
 
-#baidu push
+#baidu push 百度统计标志位
 baidu_push: true
 
-#reward
+#reward 奖励二维码
 reward:
   weixin: 'images/weixin.png'
   zhifubao: 'images/zhifubao.png'
