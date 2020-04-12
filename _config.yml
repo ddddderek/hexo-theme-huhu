@@ -23,7 +23,7 @@ favicon: /images/favicon.ico
 site_search: true 
 
 #rss 订阅标签
-rss: '' #atom.xml
+rss: 'atom.xml' #atom.xml
 
 #follow 其他站点 按顺序展示
 follow:
