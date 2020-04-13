@@ -1,5 +1,4 @@
-#菜单导航
-menu:
+menu: #菜单导航
   home: /
   archives: /archives
   categories: /categories
@@ -7,54 +6,34 @@ menu:
   #friends: /friends
   about: /about
 
-#logo图片
-logo: /images/logo.png
+logo: /images/logo.png #logo图片
 
-#categories-max 分类最大数量
-categories_max: 5
+categories_max: 5 #categories-max 分类最大数量
  
-#tags-max 标签最大数量
-tags_max: 10
+tags_max: 10 #tags-max 标签最大数量
 
-#favicon 网站favicon(浏览器左上角小图标)
-favicon: /images/favicon.ico
+favicon: /images/favicon.ico #favicon 网站favicon(浏览器左上角小图标)
 
-#site switch 
-site_search: true 
+site_search: true #site switch 
 
-#rss 订阅标签
-rss: 'atom.xml' #atom.xml
+rss: /atom.xml #rss 订阅标签
 
-#follow 其他站点 按顺序展示
-follow:
+follow: #follow 其他站点 按顺序展示
   github: 'https://github.com/ddddderek'
-  #facebook: 'https://www.facebook.com/shi.xiaohu.5'
-  #instagram: 'https://www.instagram.com/shi_xiaohu/'
-  # twitter: 'https://github.com/shixiaohu2206'
-  # weixin: 'https://github.com/shixiaohu2206'
-  # alipay: 'https://github.com/shixiaohu2206'
-  # zhihu: 'https://github.com/shixiaohu2206'
-  # QQ: 'https://github.com/shixiaohu2206'
-  # weibo: 'https://github.com/shixiaohu2206'
-  # qqkongjian: 'https://github.com/shixiaohu2206'
-  # google: 'https://github.com/shixiaohu2206'
+  zhihu: ''
+  QQ: ''
 
-#search post url
-search_url: /search.xml
+search_url: /search.xml #search post url
 
-#ICP 网站备案
-site_icp: ''
+site_icp: '' #ICP 网站备案
 
-#分享平台
-share:
+share: #分享平台
   - weibo
   - weixin
   - qqkongjian
 
-
 #cdn 加速
-#script
-cdn_script:
+cdn_script: #script
   css: 'https://cdn.bootcss.com/require-css/0.1.10/css.min.js'
   pjax: 'https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js'
   av_min: 'https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js'
@@ -63,20 +42,17 @@ cdn_script:
   confirm: 'https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.js'
   fancybox: 'https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js'
   chart: 'https://cdn.bootcss.com/Chart.js/2.8.0-rc.1/Chart.bundle.min.js'
-#css
-cdn_css:
+
+cdn_css: #css
   confirm: 'https://cdn.bootcss.com/jquery-confirm/3.3.4/jquery-confirm.min.css'
   fancybox: 'https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css'
   chart: 'https://cdn.bootcss.com/Chart.js/2.8.0-rc.1/Chart.min.css'
 
-#baidu push 百度统计标志位
-baidu_push: true
+baidu_push: true #baidu push 百度统计标志位
 
-#reward 奖励二维码
-reward:
-  weixin: 'images/weixin.png'
-  zhifubao: 'images/zhifubao.png'
+reward: #reward 奖励二维码
+  weixin: 'images/weixin.png' #微信
+  zhifubao: 'images/zhifubao.png' #知乎
 
-#service worker 配合pjax
-service_worker:
+service_worker: #service worker 配合pjax
   open: false #开启sw
